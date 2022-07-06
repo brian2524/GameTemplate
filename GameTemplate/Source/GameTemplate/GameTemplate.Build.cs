@@ -12,6 +12,7 @@ public class GameTemplate : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine" });
 		PrivateDependencyModuleNames.AddRange(
 			new string[] {
+				"GameplayTags",
 				"AbilitySystemSetup",
 				"AbilitySystemSetupExtras",
 				"GameCore",
