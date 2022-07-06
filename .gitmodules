@@ -1,0 +1,18 @@
+[submodule "GameTemplate/Plugins/GameSetup"]
+	path = GameTemplate/Plugins/GameSetup
+	url = https://github.com/ChristianHinko/GameSetup.git
+[submodule "GameTemplate/Plugins/GameCore"]
+	path = GameTemplate/Plugins/GameCore
+	url = https://github.com/brian2524/GameCore.git
+[submodule "GameTemplate/Plugins/ArcInventoryExtension"]
+	path = GameTemplate/Plugins/ArcInventoryExtension
+	url = https://github.com/brian2524/ArcInventoryExtension.git
+[submodule "GameTemplate/Plugins/ArcInventory"]
+	path = GameTemplate/Plugins/ArcInventory
+	url = https://github.com/ChristianHinko/ArcInventory.git
+[submodule "GameTemplate/Plugins/AbilitySystemSetupExtras"]
+	path = GameTemplate/Plugins/AbilitySystemSetupExtras
+	url = https://github.com/brian2524/AbilitySystemSetupExtras.git
+[submodule "GameTemplate/Plugins/AbilitySystemSetup"]
+	path = GameTemplate/Plugins/AbilitySystemSetup
+	url = https://github.com/ChristianHinko/AbilitySystemSetup.git

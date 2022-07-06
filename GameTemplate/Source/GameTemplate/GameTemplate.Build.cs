@@ -9,6 +9,15 @@ public class GameTemplate : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine" });
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(
+			new string[] {
+				"AbilitySystemSetup",
+				"AbilitySystemSetupExtras",
+				"GameCore",
+				"GameSetup",
+				"ArcInventory",
+				"ArcInventoryExtension",
+			}
+		);
 	}
 }
