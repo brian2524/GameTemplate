@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Modules/ModuleInterface.h"
 
 //#include "GameTemplateModule.generated.h" // if we ever need reflection in here
 
@@ -12,14 +11,8 @@
 /**
  * Game Template module
  */
-class FGameTemplateModule : public IModuleInterface
+class FGameTemplateModule : public FDefaultGameModuleImpl
 {
-public:
-	virtual bool IsGameModule() const override
-	{
-		return true;
-	}
-
 protected:
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
