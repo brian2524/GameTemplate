@@ -17,9 +17,7 @@ public class GameTemplate : ModuleRules
 				"GameplayTags",
 				"GameplayAbilities",
 				"AbilitySystemSetup",
-				"AbilitySystemSetupExtras",
-				"ArcInventory",
-				"ArcInventoryExtension",
+				"AbilitySystemSetupExtras"
 			}
 		);
 	}
