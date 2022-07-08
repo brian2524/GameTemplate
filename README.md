@@ -7,9 +7,9 @@ Current engine version: 5.0.2
 
 
 ## Notable Config Settings
-[SystemSettings]
-Net.IsPushModelEnabled=1
-net.UseAdaptiveNetUpdateFrequency=1
+[SystemSettings]  
+Net.IsPushModelEnabled=1  
+net.UseAdaptiveNetUpdateFrequency=1  
 
-[/Script/GameplayTags.GameplayTagsSettings]
-FastReplication=True
+[/Script/GameplayTags.GameplayTagsSettings]  
+FastReplication=True  
