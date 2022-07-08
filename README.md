@@ -1,5 +1,5 @@
 # GameTemplate
-A minimal project hooking up core plugins as a starting point for any game.
+The minimal setup for projects utilizing our main plugins. Strictly provides base classes that integrates themselves with our main plugins\' base-classes/extension-components.
 
 Collaborators: Brian2524, ChristianHinko
 
