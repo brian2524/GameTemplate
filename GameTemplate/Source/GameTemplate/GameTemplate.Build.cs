@@ -7,8 +7,18 @@ public class GameTemplate : ModuleRules
 	public GameTemplate(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		PrivatePCHHeaderFile = "Private/GameTemplatePrivatePCH.h";
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine" });
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(
+			new string[] {
+				"GameCore",
+				"GameSetup",
+				"GameplayTags",
+				"GameplayAbilities",
+				"AbilitySystemSetup",
+				"AbilitySystemSetupExtras"
+			}
+		);
 	}
 }
