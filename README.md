@@ -4,3 +4,12 @@ The minimal setup for projects utilizing our main plugins. Strictly provides bas
 Collaborators: Brian2524, ChristianHinko
 
 Current engine version: 5.0.2
+
+
+## Notable Config Settings
+[SystemSettings]
+Net.IsPushModelEnabled=1
+net.UseAdaptiveNetUpdateFrequency=1
+
+[/Script/GameplayTags.GameplayTagsSettings]
+FastReplication=True
