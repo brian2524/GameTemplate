@@ -16,4 +16,4 @@ void FGameTemplateModule::ShutdownModule()
 }
 
 
-IMPLEMENT_PRIMARY_GAME_MODULE(FGameTemplateModule, GameTemplate, "GameTemplate");
+IMPLEMENT_PRIMARY_GAME_MODULE(FGameTemplateModule, GameTemplate, TEXT("GameTemplate"));

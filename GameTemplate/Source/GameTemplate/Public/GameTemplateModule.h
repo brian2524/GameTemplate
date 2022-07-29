@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 
-//#include "GameTemplateModule.generated.h" // if we ever need reflection in here
+//#include "GameTemplateModule.generated.h" // uncomment this if we need reflection in here
 
 
 
@@ -14,6 +14,8 @@
 class FGameTemplateModule : public FDefaultGameModuleImpl
 {
 protected:
+	//  BEGIN IModuleInterface interface
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
+	//  END IModuleInterface interface
 };
