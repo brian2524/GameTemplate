@@ -21,8 +21,8 @@ public:
 	A_PrimaryGameModulePrefix_PlayerController(const FObjectInitializer& ObjectInitializer);
 
 protected:
-	//BEGIN AController Interface
+	//  BEGIN AController Interface
 	virtual void InitPlayerState() override;
 	virtual void OnRep_PlayerState() override;
-	//END AController Interface
+	//  END AController Interface
 };
