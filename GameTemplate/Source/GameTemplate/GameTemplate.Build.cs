@@ -17,7 +17,9 @@ public class GameTemplate : ModuleRules
 				"GameplayTags",
 				"GameplayAbilities",
 				"AbilitySystemSetup",
-				"AbilitySystemSetupExtras"
+				"AbilitySystemSetupExtras",
+				"EnhancedInput",
+				"InputSetup"
 			}
 		);
 	}

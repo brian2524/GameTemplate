@@ -9,6 +9,8 @@
 
 
 class UGSActorComponent_PawnExtension;
+class UISActorComponent_PawnExtension;
+class UInputComponent;
 
 
 
@@ -24,10 +26,16 @@ class A_PrimaryGameModulePrefix_Character : public AASSCharacter_Example
 protected:
 	UPROPERTY(VisibleAnywhere, Category = "GameSetup")
 		TObjectPtr<UGSActorComponent_PawnExtension> GSPawnExtensionComponent;
+	UPROPERTY(VisibleAnywhere, Category = "InputSetup")
+		TObjectPtr<UISActorComponent_PawnExtension> ISPawnExtensionComponent;
 
 public:
 	A_PrimaryGameModulePrefix_Character(const FObjectInitializer& ObjectInitializer);
 
 protected:
+	//  BEGIN APawn interface
+	virtual void PawnClientRestart() override;
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+	//  END APawn interface
 
 };
