@@ -10,3 +10,6 @@
 [submodule "GameTemplate/Plugins/AbilitySystemSetup"]
 	path = GameTemplate/Plugins/AbilitySystemSetup
 	url = https://github.com/ChristianHinko/AbilitySystemSetup.git
+[submodule "GameTemplate/Plugins/InputSetup"]
+	path = GameTemplate/Plugins/InputSetup
+	url = https://github.com/ChristianHinko/InputSetup.git
