@@ -1,15 +1,15 @@
-[submodule "GameTemplate/Plugins/GameSetup"]
-	path = GameTemplate/Plugins/GameSetup
+[submodule "_GameProjectName_/Plugins/GameSetup"]
+	path = _GameProjectName_/Plugins/GameSetup
 	url = https://github.com/ChristianHinko/GameSetup.git
-[submodule "GameTemplate/Plugins/GameCore"]
-	path = GameTemplate/Plugins/GameCore
+[submodule "_GameProjectName_/Plugins/GameCore"]
+	path = _GameProjectName_/Plugins/GameCore
 	url = https://github.com/brian2524/GameCore.git
-[submodule "GameTemplate/Plugins/AbilitySystemSetupExtras"]
-	path = GameTemplate/Plugins/AbilitySystemSetupExtras
+[submodule "_GameProjectName_/Plugins/AbilitySystemSetupExtras"]
+	path = _GameProjectName_/Plugins/AbilitySystemSetupExtras
 	url = https://github.com/brian2524/AbilitySystemSetupExtras.git
-[submodule "GameTemplate/Plugins/AbilitySystemSetup"]
-	path = GameTemplate/Plugins/AbilitySystemSetup
+[submodule "_GameProjectName_/Plugins/AbilitySystemSetup"]
+	path = _GameProjectName_/Plugins/AbilitySystemSetup
 	url = https://github.com/ChristianHinko/AbilitySystemSetup.git
-[submodule "GameTemplate/Plugins/InputSetup"]
-	path = GameTemplate/Plugins/InputSetup
+[submodule "_GameProjectName_/Plugins/InputSetup"]
+	path = _GameProjectName_/Plugins/InputSetup
 	url = https://github.com/ChristianHinko/InputSetup.git
