@@ -3,7 +3,7 @@ The minimal setup for projects utilizing our main plugins. Strictly provides bas
 
 Collaborators: Brian2524, ChristianHinko
 
-Current engine version: 5.0.2
+Current engine version: 5.0.3
 
 
 ## Notable Config Settings
